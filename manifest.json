@@ -1,0 +1,13 @@
+{
+  "name": "VK TG UT",
+  "description": "Позволяет переходить на сайты Вконтакте, Телеграмм, Ютуб с других страниц",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts":
+  [{
+    "matches": ["<all_urls>"],
+    "js": ["script.js"],
+    "css": ["style.css"],
+    "run_at": "document_end"
+  }]
+}
